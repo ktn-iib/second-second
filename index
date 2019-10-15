@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>Checkout Form</title>
+
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="form-validation.css" rel="stylesheet">
+  </head>
+
+  <body>
+   <div class="1">
+     <p id="ttl">Checkout Form</p>
+     <p id="desc">Below is an example form built entirely with Bootstrap's form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
+   </div>
+
+   <div class="list-group">
+     <p>Your cart
+        <span class="badge badge-primary badge-pill">3</span>
+     </p>
+     <a href="#" class="list-group-item list-group-item-action active">
+      <div class="d-flex w-100 justify-content-between">
+       <h5 class="mb-1">Product name</h5>
+       <small>$12</small>
+      </div>
+      <p class="mb-1">Brief description</p>
+    </a>
+
+    <a href="#" class="list-group-item list-group-item-action">
+     <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">Second product</h5>
+      <small>$8</small>
+     </div>
+     <p class="mb-1">Brief description</p>
+    </a>
+
+    <a href="#" class="list-group-item list-group-item-action">
+     <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">Third product</h5>
+      <small>$5</small>
+     </div>
+     <p class="mb-1">Brief description</p>
+    </a>
+
+    <a href="#" class="list-group-item list-group-item-action">
+     <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">Promo code</h5>
+      <small>-$5</small>
+     </div>
+     <p class="mb-1">EXAMPLE CODE</p>
+    </a>
+
+    <a href="#" class="list-group-item list-group-item-action">
+     <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">Total(USD)</h5>
+      <small>$20</small>
+     </div>
+    </a>
+    
+    <form>
+      <div class="form-row align-items-center">
+        <div class="col-auto">
+          <label class="sr-only" for="inlineFormInput">Promo code</label>
+          <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Promo code">
+        </div>
+        <div class="col-auto">
+          <button type="submit" class="btn btn-primary mb-2">Redeem</button>
+        </div>
+      </div>
+    </form>
+   </div>
+
+   <div class="3">
+     <p id="ttl3">Billing address</p>
+     <form>
+       <div class="form-row">
+         <div class="form-group col-md-6">
+            <label for="inlineFormInputName">First name</label>
+             <input type="text" class="form-control" id="inlineFormInputName" placeholder="Kotone">
+         </div>
+         <div class="form-group col-md-6">
+           <label for="inlineFormInputName">Last name</label>
+            <input type="text" class="form-control" id="inlineFormInputName" placeholder="Tashiro">
+         </div>
+       </div>
+
+       <div class="form-group">
+        <label class="sr-only" for="inlineFormInputGroupUsername">Username</label>
+        <div class="input-group">
+         <div class="input-group-prepend">
+           <div class="input-group-text">@</div>
+         </div>
+        <input type="username" class="form-control" id="inlineFormInputGroupUsername" placeholder="Username">
+        </div>
+       </div>
+
+       <div class="form-group">
+         <label for="exampleInputEmail1">Email 
+            <small class="form-text text-muted">(Optional)</small>
+         </label>
+         <input type="email" class="form-control" id="exampleInputEmail1" placeholder="you@example.com">
+       </div>
+
+       <div class="form-group">
+         <label for="inputAddress">Address</label>
+         <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+       </div>
+
+       <div class="form-group">
+         <label for="inputAddress2">Address 2</label>
+         <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+       </div>
+
+       <div class="form-row">
+         <div class="form-group col-md-6">
+           <label for="inputCountry">Country</label>
+           <input type="text" class="form-control" id="inputCountry">
+         </div>
+
+         <div class="form-group col-md-4">
+           <label for="inputState">State</label>
+           <select id="inputState" class="form-control">
+           <option selected>Choose...</option>
+           <option>California</option>
+           <option>New York</option>
+           </select>
+         </div>
+         <div class="form-group col-md-2">
+           <label for="inputZip">Zip</label>
+           <input type="text" class="form-control" id="inputZip">
+         </div>
+       </div>
+
+       <div class="form-group">
+         <div class="form-check">
+           <input class="form-check-input" type="checkbox" id="gridCheck">
+           <label class="form-check-label" for="gridCheck">
+           Shipping address is the same as my billing address
+           </label>
+         </div>
+       </div>
+
+       <div class="form-group">
+         <div class="form-check">
+           <input class="form-check-input" type="checkbox" id="gridCheck">
+           <label class="form-check-label" for="gridCheck">
+           Save this information for next time
+           </label>
+         </div>
+       </div>
+
+      </form>
+   </div>
+
+   <div class="4">
+     
+   </div>
+
+   <div class="5">
+     
+   </div>
+
+   <div class="6">
+     
+   </div>
+
+   <div class="7">
+     
+   </div> 
+
+  </body>
+</html>
